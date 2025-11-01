@@ -11,3 +11,12 @@ Retorne “Válido” ou “Inválido”.
 
 💡 Desafio extra: implemente uma função que gera um número aleatório válido.
 """
+
+myNumber = input("Digite seu numero de identidade: ")
+if myNumber.isdigit():
+    if len(myNumber) == 12:
+        print("Valido")
+    else:
+        print("Nao ha 12 digitos")
+else:
+    print("Invalido: deve conter apenas numeros")
