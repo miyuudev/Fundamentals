@@ -9,7 +9,7 @@ def is_par(numero:int) -> bool:
 
 def main():
     numero = int(input("Digite um numero: "))
-    resultado = "par" if is_par(numero) else "impar"
+    resultado = "par" if is_par(numero) else "ímpar"
     print(f"O número {numero} é {resultado}.")
 
 
